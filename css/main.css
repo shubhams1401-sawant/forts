@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height:100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/shivaji.jpg");
+    background-size: cover;
+    background-attachment:center;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 20%;
+    text-align: center;
+    color: orange;
+}
+nav .logo h1 img{
+	width:100px;
+	height:100px;
+}
+nav .menu {
+    width: 65%;
+    display:flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+nav .menu a {
+    width: 80%;
+    height:140%;
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    font-size:30px;
+    border:2px solid red;
+    display:block;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    background:;
+    text-align:center;
+    margin-right:51px;
+    
+ }
+ 
+ nav .menu a:hover after{
+   transform:scale(0.9);
+ }
+
+#activePage {
+    color: rgb(0, 0, 0);
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px black;
+    color:yellow;
+    font-family: 'Playfair Display SC', serif;
+}
+section h1.head{
+     text-align:top;
+     font-family: 'Faster One', cursive;
+     color: rgb(199, 99, 199);
+     
+}
+
+section h1 {
+    margin: 10px 0 10px 0;
+    font-size: 100px;
+    color: rgb(255, 69, 0);
+    font-weight: 500;
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+    text-align:top;
+    //font-family: 'Faster One', cursive;
+}
+
+section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 2px 1px black;
+}
+
+section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+section .btnone {
+    background-color: rgb(255, 69, 0);
+    color: #000;
+    size:10000px;
+}
+
+.btnone:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.change_content:after {
+    content: '';
+    animation: changetext 20s;
+    infinite linear;
+    color: white;
+}
+
+@keyframes changetext {
+    0% {
+        content: "Torna";
+    }
+    10% {
+        content: "Sinhagad";
+    }
+    20% {
+        content: "Raigad";
+    }
+    30% {
+        content: "Shivneri";
+    }
+    40% {
+        content: "Vijaydurg";
+    }
+    50% {
+        content: "Sindhudurg";
+    }
+    60% {
+        content: "Rajgad";
+    }
+    70% {
+        content: "Pratapgad";
+    }
+    80% {
+        content: "Lohagad";
+    }
+    90% {
+        content: "Panhala";
+    }
+    100% {
+        content: "Murud Janjira";
+    }
+}
+.stop-scrolling{ 
+        overflow:hidden; 
+}

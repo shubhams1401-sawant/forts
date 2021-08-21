@@ -1,0 +1,35 @@
+body{
+    text-align:justify;
+    background-image:url("../images/background1.jpg");
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    height:1000px;
+   // font-family: 'Style Script', cursive;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin:30px ;
+}
+.card{
+   text-align:center;
+   image-border: 1px solid red;
+   //font-family: 'Tourney', cursive;
+   //font-family: 'Style Script', cursive;
+}
+
+
+.image-border{
+  border:5px solid black;
+  border-radius:50%;
+}
+.flag-image{
+  width:150px;
+  height:150px;
+}
+.flag{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  //font-family: 'Tourney', cursive;
+}

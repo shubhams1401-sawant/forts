@@ -1,0 +1,38 @@
+*{
+  
+}
+}
+.places{
+	width:100vw;
+	padding:10px 20px 10px 20px;
+}
+.places img{ 
+    width:100%;
+	height:20%;
+	border-radius:30px;
+}
+.places h1{ 
+	text-align:center;
+	font-size:80px;
+	margin-top:15px;
+	font-family: 'Eater', cursive;
+	//color:red;
+	color: rgb(190, 10, 140);
+}
+ h3{
+    text-decoration-color:red;
+    color:blue;
+    text-decoration-line:underline;
+}
+.forts_details{
+	text-align:justify;
+	margin:15px 15px 15px 15px;
+}
+body{
+background-image:url("../images/Background.jpg");
+color:black;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:cover;
+background-size:100%;
+}

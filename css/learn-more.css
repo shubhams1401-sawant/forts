@@ -1,0 +1,76 @@
+body{
+     // background-color:pink;
+      text-align:justify;
+      background-image:url("../images/background2.jpg");
+      background-position:center;
+      background-size:cover;
+      background-attachment:fixed;
+      height:1000px;
+      // font-family: 'Style Script', cursive;
+      color:black;
+}
+
+
+.container{
+      width:100vw;
+      padding:50px 50px 50px 50px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      border:1px solid red;
+      font-family: 'Oi', cursive;
+}
+.container a{
+      text-decoration:none;
+      text-align:center;
+      font-size:60px;
+      color:black;
+      margin-bottom:50px;
+      font-weight:bold;
+      text-transform:uppercase;
+   font-family: 'Lily Script One', cursive;
+   character-spacing:1;
+}
+.places
+{
+     border:1px solid black;
+     width:800px;
+     height:500px;
+     margin:20px 20px 20px 20px;
+     background-size:cover;
+     background-repeat:no-repeat;
+     border-radius:10px;
+ font-family: 'Oi', cursive;
+ 
+}
+.place1{
+     background-image:url("../images/pic_lohagad.jpg");
+}
+.place2{
+     background-image:url("../images/pic_panhala.jpg");
+}
+.place3{
+     background-image:url("../images/pic_murud janjira.jpg");
+}
+.place4{
+     background-image:url("../images/pic_pratapgad.jpg");
+}
+.place5{
+     background-image:url("../images/pic_rajgad.jpg");
+}
+.place6{
+     background-image:url("../images/pic_shivneri.jpg");
+}
+.place7{
+     background-image:url("../images/pic_sinhagad.jpg");
+}
+.place8{
+     background-image:url("../images/pic_sindhudurg.jpg");
+}
+.place9{
+     background-image:url("../images/pic_torna.jpg");
+}
+.places10{
+      background-image:url("../images/pic_vijaydurg.jpg");
+}
